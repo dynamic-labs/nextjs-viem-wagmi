@@ -12,6 +12,7 @@ import {
   AlgorandWalletConnectors,
   StarknetWalletConnectors,
   MagicWalletConnectors,
+  DynamicWagmiConnector,
 } from "../lib/dynamic";
 
 const inter = Inter({ subsets: ["latin"] });
