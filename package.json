@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-viem-wagmi",
+  "name": "@dynamic-labs/nextjs-viem-wagmi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
