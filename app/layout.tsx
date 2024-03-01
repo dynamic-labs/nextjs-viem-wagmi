@@ -32,16 +32,7 @@ export default function RootLayout({
       <DynamicContextProvider
         settings={{
           environmentId: "2762a57b-faa4-41ce-9f16-abff9300e2c9",
-          walletConnectors: [
-            EthereumWalletConnectors,
-            FlowWalletConnectors,
-            CosmosWalletConnectors,
-            BloctoEvmWalletConnectors,
-            AlgorandWalletConnectors,
-            StarknetWalletConnectors,
-            MagicWalletConnectors,
-            SolanaWalletConnectors,
-          ],
+          walletConnectors: [EthereumWalletConnectors],
         }}
       >
         <DynamicWagmiConnector>

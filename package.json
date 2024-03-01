@@ -9,15 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dynamic-labs/algorand": "^1.0.0",
-    "@dynamic-labs/cosmos": "^1.0.0",
-    "@dynamic-labs/ethereum": "^1.0.0",
-    "@dynamic-labs/flow": "^1.0.0",
-    "@dynamic-labs/solana": "^1.0.0",
-    "@dynamic-labs/starknet": "^1.0.0",
-    "@dynamic-labs/magic": "^1.0.0",
-    "@dynamic-labs/blocto-evm": "^1.0.0",
-    "@dynamic-labs/wagmi-connector": "^1.0.0",
+    "@dynamic-labs/sdk-react-core": "*",
+    "@dynamic-labs/ethereum": "*",
+    "@dynamic-labs/wagmi-connector": "*",
     "@types/node": "20.5.4",
     "@types/react": "18.2.25",
     "@types/react-dom": "18.2.7",
