@@ -4,16 +4,11 @@ import { Inter } from "next/font/google";
 
 import {
   DynamicContextProvider,
-  SolanaWalletConnectors,
   EthereumWalletConnectors,
-  FlowWalletConnectors,
-  CosmosWalletConnectors,
-  BloctoEvmWalletConnectors,
-  AlgorandWalletConnectors,
-  StarknetWalletConnectors,
-  MagicWalletConnectors,
   DynamicWagmiConnector,
 } from "../lib/dynamic";
+
+import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,9 +30,11 @@ export default function RootLayout({
           walletConnectors: [EthereumWalletConnectors],
         }}
       >
-        <DynamicWagmiConnector>
-          <body className={inter.className}>{children}</body>
-        </DynamicWagmiConnector>
+        <Providers>
+          <DynamicWagmiConnector>
+            <body className={inter.className}>{children}</body>
+          </DynamicWagmiConnector>
+        </Providers>
       </DynamicContextProvider>
     </html>
   );
