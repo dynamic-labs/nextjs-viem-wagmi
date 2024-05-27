@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dynamic-labs/ethereum": "*",
-    "@dynamic-labs/sdk-react-core": "*",
-    "@dynamic-labs/wagmi-connector": "*",
+    "@dynamic-labs/ethereum": "2.0.7",
+    "@dynamic-labs/sdk-react-core": "2.0.7",
+    "@dynamic-labs/wagmi-connector": "2.0.7",
     "@types/node": "20.5.4",
     "@types/react": "18.2.25",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
+    "eslint-config-next": "14.2.3",
+    "next": "14.2.3",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6",
-    "viem": "*",
-    "wagmi": "*"
+    "viem": "2.12.1",
+    "wagmi": "2.9.6"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
