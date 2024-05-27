@@ -1,6 +1,4 @@
-"use client";
-
-import { DynamicWidget } from "@dynamic-labs/sdk-react-core";
+import { DynamicWidget } from "../lib/dynamic";
 
 export default function Main() {
   return (
